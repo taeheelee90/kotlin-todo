@@ -22,13 +22,14 @@
 
     <EditText
         android:id="@+id/editText_toDo"
-        android:layout_width="280dp"
+        android:layout_width="0dp"
         android:layout_height="wrap_content"
         android:hint="Add task"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintBottom_toBottomOf="parent"
         android:layout_marginLeft="20dp"
-        android:layout_marginBottom="13dp"/>
+        android:layout_marginBottom="13dp"
+        app:layout_constraintEnd_toStartOf="@id/addBtn"/>
 
     <Button
         android:id="@+id/addBtn"
